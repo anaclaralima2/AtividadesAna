@@ -29,9 +29,11 @@
             <input type="number" class="form-control" id="exampleInputPassword1" name="numero2">
         </div>
 
+         <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Digite o terceiro número</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" name="numero3">
+        </div>
 
         <button type="submit" class="btn btn-primary">Soma</button>
     </form>
 </body>
-
-</html>
