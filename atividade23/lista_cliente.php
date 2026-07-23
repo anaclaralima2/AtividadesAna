@@ -14,7 +14,9 @@ $resultado = $conexao->query($sql);
         echo "Cidade: ".$cliente['cidade'] . "<br>";
         
 
-        echo "<a href= 'editar_clientes.php?id='" . $cliente['id'] . ">Editar</a> <br>";
+        echo "<a href= 'editar_clientes.php?id=" . $cliente['id'] . "'> <button> Editar </button> </a> <br>";
+         echo "<a href= 'excluir_cliente.php?id=" . $cliente['id'] . "'> <button> Excluir  </button> </a> <br>";
+        
     }
        
 ?>
