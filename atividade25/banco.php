@@ -2,7 +2,7 @@
 $host = "localhost";
 $usuario = "root";
 $senha = "senac";
-$banco = "escola";
+$banco = "atividade25";
 $porta = "3307";
 
 $conexao = new mysqli(

@@ -1,6 +1,6 @@
 <?php
 
-include("conexao.php");
+include "conexao.php";
 
 $n1 = $_POST['n1'];
 $n2 = $_POST['n2'];
@@ -21,7 +21,7 @@ $conexao->query($sql);
 <head>
 <meta charset="UTF-8">
 <title>Resultado</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
